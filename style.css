@@ -1,0 +1,120 @@
+
+body {
+  background-image: url("img/madear.jpg");
+  background-repeat: repeat;
+  display: block;
+  height: 100vh; 
+  margin: 18px;
+}
+
+.contenedorAreaTexto{
+  display: flex;
+  flex-direction: row;
+}
+
+.imagenLogo{
+  height: 500px;
+  left: 0px;
+  top: 40px;
+  width: 200px;
+}
+
+.campoTextoIzquierda{
+  background-color: rgba(19, 17, 17, 0.6);    
+  background-image: url("img/Frame\ 1.png");
+  background-position: center; /* Centra la imagen de fondo */  
+  background-repeat: no-repeat;
+  background-size: 300px; /* Asegura que la imagen de fondo cubra todo el elemento*/
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 25px;
+  height: 500px;
+  left: 240px;
+  margin-left: 0px; 
+  padding: .25rem;
+  top: 168px;
+  transition: border-color .2s ease;
+  width: 650px;
+}
+
+#textoEncriptar::placeholder{
+  color: rgb(250, 252, 249);
+}
+
+#textoEncriptar{
+  color: rgb(0, 255, 136);
+}
+
+.campoTextoDerecha{  
+  background-color: rgba(19, 17, 17, 0.6);   
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  border-radius: 5px;
+  border: 1px solid #dddd;
+  font-size: 25px;
+  height: 500px;
+  left: 300px;
+  margin-left: 50px;
+  padding: .25rem;
+  top: 40px;
+  transition: border-color .2s ease;
+  width: 350px;
+}
+
+#textoEncriptado::placeholder{
+  color: rgb(250, 252, 249);
+}
+
+#textoEncriptado{
+  color: rgb(0, 255, 136);
+}
+
+.botonEncriptar{ 
+  background: #D8DFE8;
+  border-radius: 24px;
+  height: Hug (67px);
+  margin-left: 210px;
+  padding: 24px;
+  transition: border-color .2s ease;
+  border: 3px solid black;
+}
+
+.botonDesencriptar{
+  background: #D8DFE8;
+  border-radius: 24px;
+  margin-left: 30px;
+  padding: 24px;
+  transition: border-color .2s ease;
+  border: 3px solid black;
+}
+
+.botonCopiar{
+  border-radius: 24px;
+  border: 3px solid black;
+  gap: 8px;
+  left: 1032px;
+  margin-left: 115px;
+  padding: 24px;
+  top: 885px;
+  transition: border-color .2s ease;
+ 
+}
+
+.botonLimpiar{
+  border-radius: 24px;
+  border: 3px solid black;
+  gap: 8px;
+  height: Hug (67px);
+  left: 1032px;
+  margin-left: 30px; 
+  padding: 24px;
+  top: 885px;
+  transition: border-color .2s ease;
+  width: Fixed (336px);
+}
+
+
+
+
